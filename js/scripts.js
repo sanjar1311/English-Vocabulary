@@ -104,6 +104,10 @@ if(elCheckForm){
 
 
   elCheckEngInput.focus();
+  var index = Math.floor(Math.random() * wordsLocalUzb.length);
+  var randomWord = wordsLocalUzb[index];
+  elCheckOutput.textContent = randomWord;
+  elCheckOutput.textContent = wordsLocalUzb[index];
 
   elCheckForm.addEventListener('submit', function(evt) {
     evt.preventDefault();
