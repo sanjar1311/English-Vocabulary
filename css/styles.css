@@ -1,0 +1,22 @@
+.containercha {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 35px;
+  }
+  .form-inner {
+    flex-direction: column;
+    width: 75% !important;
+  }
+  .form-input {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  .form-output {
+    width: 100% !important;
+  }
+}
